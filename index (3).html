@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Recreation Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header style="background-image: url('https://source.unsplash.com/1600x600/?resort,hotel'); background-size: cover; color: white;">
+        <div style="background: rgba(0, 0, 0, 0.6); padding: 40px;">
+            <h1>Root Recreation Center</h1>
+            <p>Your Ultimate Escape to Relaxation, Nature, and Fun!</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </header>
+
+    <section id="accommodation">
+        <h2>Accommodation</h2>
+        <ul>
+            <li><strong>Standard Rooms</strong> – Cozy and stylish for personal stays.</li>
+            <li><strong>Deluxe Cottages</strong> – Perfect for romantic getaways.</li>
+            <li><strong>Family Villas</strong> – Spacious and fully equipped.</li>
+        </ul>
+        <img src="https://source.unsplash.com/800x400/?hotel-room" alt="Room Photo" style="width: 100%; border-radius: 8px;">
+    </section>
+
+    <section id="recreation">
+        <h2>Recreation & Activities</h2>
+        <ul>
+            <li>Nature walks & bird watching</li>
+            <li>Fishing & boat rides</li>
+            <li>Outdoor games & swimming pool</li>
+            <li>Kids’ Play Park & Zip-lining</li>
+        </ul>
+        <img src="https://source.unsplash.com/800x400/?resort-activities" alt="Activities" style="width: 100%; border-radius: 8px;">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+            <img src="https://source.unsplash.com/400x300/?resort" alt="Gallery 1">
+            <img src="https://source.unsplash.com/400x300/?hotel" alt="Gallery 2">
+            <img src="https://source.unsplash.com/400x300/?spa" alt="Gallery 3">
+            <img src="https://source.unsplash.com/400x300/?swimming-pool" alt="Gallery 4">
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Booking & Reservations</h2>
+        <form>
+            <label>Room Type: <input type="text" name="room"></label><br>
+            <label>Check-in: <input type="date" name="checkin"></label><br>
+            <label>Check-out: <input type="date" name="checkout"></label><br>
+            <label>Guests: <input type="number" name="guests"></label><br>
+            <label>Special Requests: <textarea name="requests"></textarea></label><br>
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Location: Root Recreation Center, Kakiri, along Hoima Road</p>
+        <p>📞 Call: +256 786 359 514</p>
+        <p>📧 Email: gideon200077@gmail.com</p>
+        <form action="https://formspree.io/f/moqgzqqy" method="POST">
+            <label>Your Name: <input type="text" name="name" required></label><br>
+            <label>Your Email: <input type="email" name="_replyto" required></label><br>
+            <label>Message: <textarea name="message" required></textarea></label><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Root Recreation Center. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
